@@ -3,6 +3,8 @@ package com.mm;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    PrimeFactorFinder primer = new PrimeFactorFinder();
+        primer.getPrimeFactorsList(100);
+
     }
 }
